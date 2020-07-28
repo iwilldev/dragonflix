@@ -19,6 +19,7 @@ export const VideoCardContainer = styled.a`
   display: flex;
   align-items: flex-end;
   padding: 16px;
+  opacity: .25;
   
   &:not(:first-child) {
     margin-left: 20px;
@@ -27,12 +28,16 @@ export const VideoCardContainer = styled.a`
   transition: .5s;
   &:hover,
   &:focus {
-    opacity: .85
+    opacity: 1
   }
 
   &:hover p,
   &:focus p {
     display:inline;
+  }
+
+  @media (max-width: 800px) {
+    opacity: 1
   }
 
 `; // fim dos estilos do VideoCardContainer
