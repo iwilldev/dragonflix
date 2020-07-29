@@ -1,187 +1,279 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Alt Rock / (Post-)Grunge",
       "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      },
+      "cor": "#FF4B4B",
       "videos": [
         {
-          "titulo": "Imersão React Live #01 - Analisando o front-end do Netflix, do Spotify e do Ifood",
-          "url": "https://www.youtube.com/watch?v=Dcn-tVmSxyU"
+          "titulo": "Alter Bridge - Addicted to Pain",
+          "url": "https://www.youtube.com/watch?v=sAYrAu-jnMY"
         },
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Stone Sour - Gone Sovereign/Absolute Zero",
+          "url": "https://www.youtube.com/watch?v=r7dHBjXnbtk"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Three Days Grace - Animal I Have Become",
+          "url": "https://www.youtube.com/watch?v=xqds0B_meys"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Radiohead - Creep",
+          "url": "https://www.youtube.com/watch?v=XFkzRNyygfk"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Pearl Jam - Jeremy",
+          "url": "https://www.youtube.com/watch?v=MS91knuzoOA"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Audioslave - Like a Stone",
+          "url": "https://www.youtube.com/watch?v=7QU1nvuxaMA"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Creed - My Sacrifice",
+          "url": "https://www.youtube.com/watch?v=O-fyNgHdmLI"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Incubus - Dig",
+          "url": "https://www.youtube.com/watch?v=nMsZ6wkZWhA"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Shinedown - Simple Man",
+          "url": "https://www.youtube.com/watch?v=rgFQ6WmxdMs"
+        },
+        {
+          "titulo": "Salive - Ladies and Gentlemen",
+          "url": "https://www.youtube.com/watch?v=tMlKmELIhgY"
         }        
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
+      "titulo": "Power (& Melodic) Metal",
+      "cor": "#FF4B4B",
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Helloween - Eagle Fly Free (United Alive)",
+          "url": "https://www.youtube.com/watch?v=cwBpgobasqI"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Angra - Wishing Well",
+          "url": "https://www.youtube.com/watch?v=6b0Dn2mBaTs"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Shaman - Distant Thunder",
+          "url": "https://www.youtube.com/watch?v=4wx0luwd7YY"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Edu Falaschi - The Glory Of The Sacred Truth",
+          "url": "https://www.youtube.com/watch?v=cwvsnoH6d1Q"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Andre Matos - I Will Return",
+          "url": "https://www.youtube.com/watch?v=SRYyG_TKxXk"
+        },
+        {
+          "titulo": "Edguy - Lavatory Love Machine",
+          "url": "https://www.youtube.com/watch?v=-y3CMlvrkN0"
+        },
+        {
+          "titulo": "Avantasia - Lost In Space",
+          "url": "https://www.youtube.com/watch?v=o26SlmROH5Q"
+        },
+        {
+          "titulo": "Kamelot - Ghost Opera",
+          "url": "https://www.youtube.com/watch?v=J-TUufvK0gU"
+        }, 
+        {
+          "titulo": "Iron Maiden - The Trooper",
+          "url": "https://www.youtube.com/watch?v=X4bgXH3sJ2Q"
+        },
+        {
+          "titulo": "Primal Fear - I Am Alive",
+          "url": "https://www.youtube.com/watch?v=7171SvM-Ouk"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
+      "titulo": "Metalcore / Alt Metal",
+      "cor": "#FF4B4B",
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Bullet For My Valentine - Waking The Demon",
+          "url": "https://www.youtube.com/watch?v=q2I0ulTZWXA&"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "As I Lay Dying - A Greater Foundation",
+          "url": "https://www.youtube.com/watch?v=CHXmHssCHY8"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Killswitch Engage - In Due Time",
+          "url": "https://www.youtube.com/watch?v=HANCzu70us4"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Trivium - The Sin And The Sentence",
+          "url": "https://www.youtube.com/watch?v=RAoKcM54Q1Y"
+        },
+        {
+          "titulo": "Avenged Sevenfold - Dear God",
+          "url": "https://www.youtube.com/watch?v=mzX0rhF8buo"
+        },
+        {
+          "titulo": "Lamb of God - Laid to Rest",
+          "url": "https://www.youtube.com/watch?v=HL9kaJZw8iw"
+        },
+        {
+          "titulo": "Five Finger Death Punch - Coming Down",
+          "url": "https://www.youtube.com/watch?v=ptzzU7jFQwo"
+        },
+        {
+          "titulo": "Killswitch Engage - The End Of Heartache",
+          "url": "https://www.youtube.com/watch?v=5zb1Wghne1w"
+        },
+        {
+          "titulo": "Slipknot - Psychosocial",
+          "url": "https://www.youtube.com/watch?v=Wws7mnMewPw"
+        },
+        {
+          "titulo": "Bullet For My Valentine - Your Betrayal",
+          "url": "https://www.youtube.com/watch?v=IHgFJEJgUrg"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Thrash / Death / Black",
+      "cor": "#FF4B4B",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Slayer - Repentless",
+          "url": "https://www.youtube.com/watch?v=yjb0j9l1sz4"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Megadeth - Holy Wars...The Punishment Due",
+          "url": "https://www.youtube.com/watch?v=9d4ui9q7eDM"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Anthrax - Madhouse",
+          "url": "https://www.youtube.com/watch?v=uGHsxMqpL0c"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Sepultura - Roots Bloody Roots",
+          "url": "https://www.youtube.com/watch?v=F_6IjeprfEs"
+        },
+        {
+          "titulo": "Exodus - Downfall",
+          "url": "https://www.youtube.com/watch?v=u95JTXzyHyA"
+        },
+        {
+          "titulo": "Kreator - Satan Is Real",
+          "url": "https://www.youtube.com/watch?v=mUv8GxrqXPk"
+        },
+        {
+          "titulo": "Trivium - Catastrophist",
+          "url": "https://www.youtube.com/watch?v=lNgyzREsaAA"
+        },
+        {
+          "titulo": "Amon Amarth - Twilight Of The Thunder God",
+          "url": "https://www.youtube.com/watch?v=edBYB1VCV0k"
+        },
+        {
+          "titulo": "BEHEMOTH - Ora Pro Nobis Lucifer",
+          "url": "https://www.youtube.com/watch?v=Cx01fOYsc6E"
+        },
+        {
+          "titulo": "Arch Enemy - The World Is Yours",
+          "url": "https://www.youtube.com/watch?v=lk2-bgwA0Ro"
         }
       ]
     },
     {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
+      "titulo": "#WomenOfMetal",
+      "cor": "#ff4b4b",
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "LACUNA COIL - Swamped",
+          "url": "https://www.youtube.com/watch?v=nOuxOUYycoU"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Arch Enemy - Nemesis",
+          "url": "https://www.youtube.com/watch?v=n9AcG0glVu4"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "EPICA - Universal Death Squad",
+          "url": "https://www.youtube.com/watch?v=P_Ys_W7ySkM"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Nightwish - Nemo",
+          "url": "https://www.youtube.com/watch?v=kIBdpFJyFkc"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "AFTER FOREVER - Energize Me",
+          "url": "https://www.youtube.com/watch?v=fjm4BrNAf6s"
+        },
+        {
+          "titulo": "Arch Enemy - You Will Know My Name",
+          "url": "https://www.youtube.com/watch?v=3Y-J7sBT_no"
+        },
+        {
+          "titulo": "Halestorm - Love Bites (So Do I)",
+          "url": "https://www.youtube.com/watch?v=FmkHqUwa4zg"
+        },
+        {
+          "titulo": "Within Temptation ft. Tarja - Paradise (What About Us?)",
+          "url": "https://www.youtube.com/watch?v=Dy6MpsDPKts"
+        },
+        {
+          "titulo": "Amaranthe - Amaranthine",
+          "url": "https://www.youtube.com/watch?v=D8lV1To-_fU"
+        },
+        {
+          "titulo": "NORTHWARD - While Love Died",
+          "url": "https://www.youtube.com/watch?v=bAiPeSsqD-4"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
+      "titulo": "Deuses do Rock",
+      "cor": "#ff4b4b",
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Queen – Bohemian Rhapsody",
+          "url": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Led Zeppelin - Whole Lotta Love",
+          "url": "https://www.youtube.com/watch?v=HQmmM_qwG4k"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Journey - Don't Stop Believin'",
+          "url": "https://www.youtube.com/watch?v=VcjzHMhBtf0"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Creedence Clearwater Revival",
+          "url": "https://www.youtube.com/watch?v=TS9_ipu9GKw"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Heart - Barracuda",
+          "url": "https://www.youtube.com/watch?v=PeMvMNpvB5M"
+        },
+        {
+          "titulo": "The Animals - House of the Rising Sun",
+          "url": "https://www.youtube.com/watch?v=4-43lLKaqBQ"
+        },
+        {
+          "titulo": "BLACK SABBATH - Paranoid",
+          "url": "https://www.youtube.com/watch?v=0qanF-91aJo"
+        },
+        {
+          "titulo": "Judas Priest - Breaking The Law",
+          "url": "https://www.youtube.com/watch?v=L397TWLwrUU"
+        },
+        {
+          "titulo": "Kansas - Carry on Wayward Son",
+          "url": "https://www.youtube.com/watch?v=P5ZJui3aPoQ"
+        },
+        {
+          "titulo": "Dio - Rainbow In The Dark",
+          "url": "https://www.youtube.com/watch?v=zcsE9ObDPxA"
         }
       ]
     }
