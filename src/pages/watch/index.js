@@ -1,5 +1,6 @@
 import React from 'react';
 import PageDefault from '../../components/PageDefault';
+import json from '../../data/watch.json';
 import styled from 'styled-components';
 
 export const WatchContainer = styled.div`
@@ -21,8 +22,7 @@ export const ResponsiveIframe = styled.iframe`
 `;
 
 function Watch() {
-    var pathArray = window.location.pathname.split('/');
-    var videoId = "https://www.youtube.com/embed/" + pathArray[2] +"?autoplay=1";
+    var videoId = "https://www.youtube.com/embed/" + json.id +"?autoplay=1";
     console.log(videoId)
     return (
         <PageDefault>
