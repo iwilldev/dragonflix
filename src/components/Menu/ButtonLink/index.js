@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const ButtonLink = styled.a`
+const ButtonLink = styled.link`
     color: var(--white);
     border: 1px solid var(--white);
     box-sizing: border-box;
