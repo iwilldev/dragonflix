@@ -11,11 +11,10 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Na Live de Abertura da Imersão React, vamos analisar as aplicações da tecnologia em aplicações que usamos no dia a dia, além de tirar dúvidas sobre a Imersão."}
+        videoDescription={"Alter Bridge é uma banda americana de rock formada em 2004, em Orlando, Flórida. A banda surgiu como um novo projeto do guitarrista e compositor Mark Tremonti, do baterista Scott Phillips e seu antigo companheiro, o baixista Brian Marshall, com a pausa nas atividades de sua antiga banda Creed, quando esses três músicos contrataram Myles Kennedy, ex-vocalista do The Mayfield Four, e atual vocalista da banda de Slash, como vocalista principal e, mais tarde, também guitarrista. A sonoridade do Alter Bridge tem sido descrita como Hard Rock, Pós-Grunge, Metal Alternativo e às vezes Metal Progressivo, tendo a banda desde canções pesadas, mais ligadas ao Heavy Metal, até as mais leves e que são executadas em formato acústico nas apresentações ao vivo"}
       />
 
       <Carousel
-        ignoreFirstVideo
         category={dadosIniciais.categorias[0]}
       />
 

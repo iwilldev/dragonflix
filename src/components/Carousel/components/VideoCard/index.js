@@ -13,11 +13,11 @@ function getYouTubeId(youtubeURL) {
 
 function VideoCard({ videoTitle, videoURL, categoryColor }) {
   const image = `https://img.youtube.com/vi/${getYouTubeId(videoURL)}/hqdefault.jpg`;
+  const videoId = videoURL.substr(32,42);
   return (
     <VideoCardContainer
       url={image}
-      href={videoURL}
-      target="_blank"
+      href={'/watch/'+videoId}
       style={{ borderColor: categoryColor || 'red' }}
       title={videoTitle}
     >
