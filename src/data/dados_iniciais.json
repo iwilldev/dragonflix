@@ -2,7 +2,6 @@
   "categorias": [
     {
       "titulo": "Alt Rock / (Post-)Grunge",
-      "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#FF4B4B",
       "videos": [
         {
@@ -98,8 +97,8 @@
       "cor": "#FF4B4B",
       "videos": [
         {
-          "titulo": "Bullet For My Valentine - Waking The Demon",
-          "url": "https://www.youtube.com/watch?v=q2I0ulTZWXA&"
+          "titulo": "Avenged Sevenfold- Unholy Confessions",
+          "url": "https://www.youtube.com/watch?v=KrQQ9ffKqUA"
         },
         {
           "titulo": "As I Lay Dying - A Greater Foundation",
