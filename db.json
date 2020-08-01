@@ -1,0 +1,10 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Hard Rock",
+            "descricao": "Vídeos de Hard Rock",
+            "cor": "#FF4b4b"    
+        }
+    ]
+}

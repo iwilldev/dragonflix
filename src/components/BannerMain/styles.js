@@ -1,8 +1,10 @@
+/* eslint-disable linebreak-style */
 import styled from 'styled-components';
 
 export const ContentAreaContainer = styled.section`
   padding-left: 5%;
   padding-right: 5%;
+  margin: -50px;
   height: 100%;
   display: flex;
   align-items: center;

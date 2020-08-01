@@ -1,10 +1,11 @@
+/* eslint-disable linebreak-style */
 import styled from 'styled-components';
 
 export const Title = styled.h3`
   font-style: normal;
   font-weight: normal;
   font-size: 35px;
-  margin-left: -5%;
+  margin-left: calc(-50px + -5%);
   letter-spacing: 2px;
   margin-bottom: 16px;
   display: inline-block;
