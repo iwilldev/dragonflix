@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -11,20 +12,9 @@ function CadastroCategoria() {
     cor: '',
   };
 
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [valores, setValores] = useState(valoresIniciais);
-
-  function setValor(prop, data) {
-    setValores({
-      ...valores,
-      [prop]: data,
-    });
-  }
-
-  function handleValor(data) {
-    const { getAttribute, value } = data.target;
-    setValor(getAttribute('name'), value);
-  }
 
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
@@ -43,39 +33,41 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {valores.nome}
+        {values.nome}
       </h1>
 
-      <form onSubmit={function handleSubmit(data) {
-        data.preventDefault();
+      <form onSubmit={function handleSubmit(infosDoEvento) {
+        infosDoEvento.preventDefault();
         setCategorias([
           ...categorias,
-          valores,
+          values,
         ]);
-        setValores(valoresIniciais);
+
+        clearForm();
       }}
       >
 
         <FormField
           label="Nome da Categoria"
-          type="text"
           name="nome"
-          value={valores.nome}
-          onChange={handleValor}
+          value={values.nome}
+          onChange={handleChange}
         />
+
         <FormField
           label="Descrição"
           type="textarea"
           name="descricao"
-          value={valores.descricao}
-          onChange={handleValor}
+          value={values.descricao}
+          onChange={handleChange}
         />
+
         <FormField
           label="Cor"
           type="color"
           name="cor"
-          value={valores.cor}
-          onChange={handleValor}
+          value={values.cor}
+          onChange={handleChange}
         />
 
         <Button>
@@ -84,9 +76,10 @@ function CadastroCategoria() {
       </form>
 
       <ul>
-        {categorias.map((categoria, indice) => (
-          // eslint-disable-next-line react/no-array-index-key
-          <li key={`${categoria.nome}${indice}`}>{categoria.nome}</li>
+        {categorias.map((categoria) => (
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
+          </li>
         ))}
       </ul>
 

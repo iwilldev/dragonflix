@@ -1,10 +1,162 @@
 {
     "categorias": [
-        {
-            "id": 1,
-            "nome": "Hard Rock",
-            "descricao": "Vídeos de Hard Rock",
-            "cor": "#FF4b4b"    
-        }
+      {
+        "id": 1,
+        "titulo": "Alt Rock / (Post-)Grunge",
+        "descricao": "",
+        "cor": "#FF4B4B"
+      },
+      {
+        "id": 2,
+        "titulo": "Power (& Melodic) Metal",
+        "descricao": "",
+        "cor": "#FF4B4B"
+      },
+      {
+        "id": 3,
+        "titulo": "Metalcore / Alt Metal",
+        "descricao": "",
+        "cor": "#FF4B4B"
+      },
+      {
+        "id": 4,
+        "titulo": "Thrash / Death / Black",
+        "descricao": "",
+        "cor": "#FF4B4B"
+      },
+      {
+        "id": 5,
+        "titulo": "#WomenOfMetal",
+        "descricao": "",
+        "cor": "#FF4B4B"
+      },
+      {
+        "id": 6,
+        "titulo": "Deuses do Rock",
+        "descricao": "",
+        "cor": "#FF4B4B"
+      }
+     ],
+    "videos": [
+      {
+        "id": 1,
+        "categoriaId": 1,
+        "titulo": "Alter Bridge - Addicted to Pain",
+        "url": "https://www.youtube.com/watch?v=sAYrAu-jnMY"
+      },
+      {
+        "id": 2,
+        "categoriaId": 1,
+        "titulo": "Stone Sour - Gone Sovereign/Absolute Zero",
+        "url": "https://www.youtube.com/watch?v=r7dHBjXnbtk"
+      },
+      {
+        "id": 3,
+        "categoriaId": 1,
+        "titulo": "Three Days Grace - Animal I Have Become",
+        "url": "https://www.youtube.com/watch?v=xqds0B_meys"
+      },
+      {
+        "id": 4,
+        "categoriaId": 1,
+        "titulo": "Radiohead - Creep",
+        "url": "https://www.youtube.com/watch?v=XFkzRNyygfk"
+      },
+      {
+        "id": 5,
+        "categoriaId": 1,
+        "titulo": "Pearl Jam - Jeremy",
+        "url": "https://www.youtube.com/watch?v=MS91knuzoOA"
+      },
+      {
+        "id": 6,
+        "categoriaId": 1,
+        "titulo": "Audioslave - Like a Stone",
+        "url": "https://www.youtube.com/watch?v=7QU1nvuxaMA"
+      },
+      {
+        "id": 7,
+        "categoriaId": 1,
+        "titulo": "Creed - My Sacrifice",
+        "url": "https://www.youtube.com/watch?v=O-fyNgHdmLI"
+      },
+      {
+        "id": 8,
+        "categoriaId": 1,
+        "titulo": "Incubus - Dig",
+        "url": "https://www.youtube.com/watch?v=nMsZ6wkZWhA"
+      },
+      {
+        "id": 9,
+        "categoriaId": 1,
+        "titulo": "Shinedown - Simple Man",
+        "url": "https://www.youtube.com/watch?v=rgFQ6WmxdMs"
+      },
+      {
+        "id": 10,
+        "categoriaId": 1,
+        "titulo": "Saliva - Ladies and Gentlemen",
+        "url": "https://www.youtube.com/watch?v=tMlKmELIhgY"
+      },
+      {
+        "id": 11,
+        "categoriaId": 2,
+        "titulo": "Helloween - Eagle Fly Free (United Alive)",
+        "url": "https://www.youtube.com/watch?v=cwBpgobasqI"
+      },
+      {
+        "id": 12,
+        "categoriaId": 2,
+        "titulo": "Angra - Wishing Well",
+        "url": "https://www.youtube.com/watch?v=6b0Dn2mBaTs"
+      },
+      {
+        "id": 13,
+        "categoriaId": 2,
+        "titulo": "Shaman - Distant Thunder",
+        "url": "https://www.youtube.com/watch?v=4wx0luwd7YY"
+      },
+      {
+        "id": 14,
+        "categoriaId": 2,
+        "titulo": "Edu Falaschi - The Glory Of The Sacred Truth",
+        "url": "https://www.youtube.com/watch?v=cwvsnoH6d1Q"
+      },
+      {
+        "id": 15,
+        "categoriaId": 2,
+        "titulo": "Andre Matos - I Will Return",
+        "url": "https://www.youtube.com/watch?v=SRYyG_TKxXk"
+      },
+      {
+        "id": 16,
+        "categoriaId": 2,
+        "titulo": "Edguy - Lavatory Love Machine",
+        "url": "https://www.youtube.com/watch?v=-y3CMlvrkN0"
+      },
+      {
+        "id": 17,
+        "categoriaId": 2,
+        "titulo": "Avantasia - Lost In Space",
+        "url": "https://www.youtube.com/watch?v=o26SlmROH5Q"
+      },
+      {
+        "id": 18,
+        "categoriaId": 2,
+        "titulo": "Kamelot - Ghost Opera",
+        "url": "https://www.youtube.com/watch?v=J-TUufvK0gU"
+      },
+      {
+        "id": 19,
+        "categoriaId": 2,
+        "titulo": "Iron Maiden - The Trooper",
+        "url": "https://www.youtube.com/watch?v=X4bgXH3sJ2Q"
+      },
+      {
+        "id": 20,
+        "categoriaId": 2,
+        "titulo": "Primal Fear - I Am Alive",
+        "url": "https://www.youtube.com/watch?v=7171SvM-Ouk"
+      }
     ]
-}
+  }
