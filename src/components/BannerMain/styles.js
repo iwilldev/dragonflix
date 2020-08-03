@@ -5,6 +5,7 @@ export const ContentAreaContainer = styled.section`
   padding-left: 5%;
   padding-right: 5%;
   margin: -50px;
+  margin-bottom: 50px;
   height: 100%;
   display: flex;
   align-items: center;

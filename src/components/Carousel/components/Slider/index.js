@@ -15,15 +15,15 @@ const Container = styled.ul`
     height: 36px;
     transform: initial;
     &:before {
-      font-size: 36px;
+      font-size: 50px;
     }
   }
   
   .slick-prev {
-    left: 0;
+    left: 15px;
   }
   .slick-next {
-    right: 16px;
+    right: 25px;
   }
   .slick-prev:before,
   .slick-next:before {
