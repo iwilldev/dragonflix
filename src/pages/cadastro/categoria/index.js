@@ -1,17 +1,20 @@
 import React, { useState, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria() {
+  const history = useHistory();
   const valoresIniciais = {
     nome: '',
     descricao: '',
-    cor: '',
+    cor: '#FF4B4B',
   };
 
-  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+  const { handleChange, values } = useForm(valoresIniciais);
 
   const [categorias, setCategorias] = useState([]);
 
@@ -37,12 +40,20 @@ function CadastroCategoria() {
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
-        setCategorias([
-          ...categorias,
-          values,
-        ]);
+        console.log(values);
+        // setCategorias([
+        //   ...categorias,
+        //   values,
+        // ]);
 
-        clearForm();
+        categoriasRepository.create({
+          titulo: values.nome,
+          descricao: values.descricao,
+          cor: values.cor,
+        })
+          .then(() => {
+            history.push('/cadastro/video');
+          });
       }}
       >
 

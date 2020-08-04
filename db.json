@@ -35,6 +35,12 @@
       "titulo": "Deuses do Rock",
       "descricao": "",
       "cor": "#FF4B4B"
+    },
+    {
+      "titulo": "Progressive Metal",
+      "descricao": "",
+      "cor": "#FF4B4B",
+      "id": 7
     }
   ],
   "videos": [
@@ -392,6 +398,30 @@
       "url": "https://www.youtube.com/watch?v=zcsE9ObDPxA",
       "categoriaId": 6,
       "id": 59
+    },
+    {
+      "titulo": "EVERGREY - In Orbit (feat. Floor Jansen)",
+      "url": "https://www.youtube.com/watch?v=XKNg2dcO94k",
+      "categoriaId": 7,
+      "id": 60
+    },
+    {
+      "titulo": "Liquid Tension Experiment - Acid Rain Live In L.A",
+      "url": "https://www.youtube.com/watch?v=edqH0ofRQrM",
+      "categoriaId": 7,
+      "id": 61
+    },
+    {
+      "titulo": "Dream Theater - The Enemy Inside",
+      "url": "https://www.youtube.com/watch?v=RoVAUUFjl0I",
+      "categoriaId": 7,
+      "id": 62
+    },
+    {
+      "titulo": "AGORA - En La Nada",
+      "url": "https://www.youtube.com/watch?v=6-9aeBhiBT8",
+      "categoriaId": 7,
+      "id": 63
     }
   ]
 }
