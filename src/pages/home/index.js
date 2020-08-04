@@ -33,7 +33,6 @@ function Home() {
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {
-          console.log(dadosIniciais[0].videos[0])
           return (
             <div key={categoria.id}>
               <BannerMain
