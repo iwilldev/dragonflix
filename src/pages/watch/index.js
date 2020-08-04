@@ -1,7 +1,7 @@
 import React from 'react';
+import styled from 'styled-components';
 import PageDefault from '../../components/PageDefault';
 import json from '../../data/watch.json';
-import styled from 'styled-components';
 
 export const WatchContainer = styled.div`
     margin: 50px 5%;
@@ -22,22 +22,21 @@ export const ResponsiveIframe = styled.iframe`
 `;
 
 function Watch() {
-    var videoId = "https://www.youtube.com/embed/" + json.id +"?autoplay=1";
-    console.log(videoId)
-    return (
-        <PageDefault>
-            <WatchContainer>
-            <ResponsiveIframe
-                title="Titulo do Iframe"
-                src={videoId}
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-            />
-            </WatchContainer>
-        </PageDefault>
-        
-    )
-}   
+  const videoId = `https://www.youtube.com/embed/${json.id}?autoplay=1`;
+  return (
+    <PageDefault>
+      <WatchContainer>
+        <ResponsiveIframe
+          title="Titulo do Iframe"
+          src={videoId}
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </WatchContainer>
+    </PageDefault>
+
+  );
+}
 
 export default Watch;

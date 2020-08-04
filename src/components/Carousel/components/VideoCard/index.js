@@ -19,7 +19,6 @@ function VideoCard({ videoTitle, videoURL, categoryColor }) {
   const history = useHistory();
   const navigateTo = () => {
     json.id = videoId;
-    console.log("ID: " + videoId + "/ JSON: " + json.id)
     history.push('/watch')
   };
 

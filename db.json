@@ -1,162 +1,397 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Alt Rock / (Post-)Grunge",
-        "descricao": "",
-        "cor": "#FF4B4B"
-      },
-      {
-        "id": 2,
-        "titulo": "Power (& Melodic) Metal",
-        "descricao": "",
-        "cor": "#FF4B4B"
-      },
-      {
-        "id": 3,
-        "titulo": "Metalcore / Alt Metal",
-        "descricao": "",
-        "cor": "#FF4B4B"
-      },
-      {
-        "id": 4,
-        "titulo": "Thrash / Death / Black",
-        "descricao": "",
-        "cor": "#FF4B4B"
-      },
-      {
-        "id": 5,
-        "titulo": "#WomenOfMetal",
-        "descricao": "",
-        "cor": "#FF4B4B"
-      },
-      {
-        "id": 6,
-        "titulo": "Deuses do Rock",
-        "descricao": "",
-        "cor": "#FF4B4B"
-      }
-     ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "Alter Bridge - Addicted to Pain",
-        "url": "https://www.youtube.com/watch?v=sAYrAu-jnMY"
-      },
-      {
-        "id": 2,
-        "categoriaId": 1,
-        "titulo": "Stone Sour - Gone Sovereign/Absolute Zero",
-        "url": "https://www.youtube.com/watch?v=r7dHBjXnbtk"
-      },
-      {
-        "id": 3,
-        "categoriaId": 1,
-        "titulo": "Three Days Grace - Animal I Have Become",
-        "url": "https://www.youtube.com/watch?v=xqds0B_meys"
-      },
-      {
-        "id": 4,
-        "categoriaId": 1,
-        "titulo": "Radiohead - Creep",
-        "url": "https://www.youtube.com/watch?v=XFkzRNyygfk"
-      },
-      {
-        "id": 5,
-        "categoriaId": 1,
-        "titulo": "Pearl Jam - Jeremy",
-        "url": "https://www.youtube.com/watch?v=MS91knuzoOA"
-      },
-      {
-        "id": 6,
-        "categoriaId": 1,
-        "titulo": "Audioslave - Like a Stone",
-        "url": "https://www.youtube.com/watch?v=7QU1nvuxaMA"
-      },
-      {
-        "id": 7,
-        "categoriaId": 1,
-        "titulo": "Creed - My Sacrifice",
-        "url": "https://www.youtube.com/watch?v=O-fyNgHdmLI"
-      },
-      {
-        "id": 8,
-        "categoriaId": 1,
-        "titulo": "Incubus - Dig",
-        "url": "https://www.youtube.com/watch?v=nMsZ6wkZWhA"
-      },
-      {
-        "id": 9,
-        "categoriaId": 1,
-        "titulo": "Shinedown - Simple Man",
-        "url": "https://www.youtube.com/watch?v=rgFQ6WmxdMs"
-      },
-      {
-        "id": 10,
-        "categoriaId": 1,
-        "titulo": "Saliva - Ladies and Gentlemen",
-        "url": "https://www.youtube.com/watch?v=tMlKmELIhgY"
-      },
-      {
-        "id": 11,
-        "categoriaId": 2,
-        "titulo": "Helloween - Eagle Fly Free (United Alive)",
-        "url": "https://www.youtube.com/watch?v=cwBpgobasqI"
-      },
-      {
-        "id": 12,
-        "categoriaId": 2,
-        "titulo": "Angra - Wishing Well",
-        "url": "https://www.youtube.com/watch?v=6b0Dn2mBaTs"
-      },
-      {
-        "id": 13,
-        "categoriaId": 2,
-        "titulo": "Shaman - Distant Thunder",
-        "url": "https://www.youtube.com/watch?v=4wx0luwd7YY"
-      },
-      {
-        "id": 14,
-        "categoriaId": 2,
-        "titulo": "Edu Falaschi - The Glory Of The Sacred Truth",
-        "url": "https://www.youtube.com/watch?v=cwvsnoH6d1Q"
-      },
-      {
-        "id": 15,
-        "categoriaId": 2,
-        "titulo": "Andre Matos - I Will Return",
-        "url": "https://www.youtube.com/watch?v=SRYyG_TKxXk"
-      },
-      {
-        "id": 16,
-        "categoriaId": 2,
-        "titulo": "Edguy - Lavatory Love Machine",
-        "url": "https://www.youtube.com/watch?v=-y3CMlvrkN0"
-      },
-      {
-        "id": 17,
-        "categoriaId": 2,
-        "titulo": "Avantasia - Lost In Space",
-        "url": "https://www.youtube.com/watch?v=o26SlmROH5Q"
-      },
-      {
-        "id": 18,
-        "categoriaId": 2,
-        "titulo": "Kamelot - Ghost Opera",
-        "url": "https://www.youtube.com/watch?v=J-TUufvK0gU"
-      },
-      {
-        "id": 19,
-        "categoriaId": 2,
-        "titulo": "Iron Maiden - The Trooper",
-        "url": "https://www.youtube.com/watch?v=X4bgXH3sJ2Q"
-      },
-      {
-        "id": 20,
-        "categoriaId": 2,
-        "titulo": "Primal Fear - I Am Alive",
-        "url": "https://www.youtube.com/watch?v=7171SvM-Ouk"
-      }
-    ]
-  }
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Alt Rock / (Post-)Grunge",
+      "descricao": "",
+      "cor": "#FF4B4B"
+    },
+    {
+      "id": 2,
+      "titulo": "Power (& Melodic) Metal",
+      "descricao": "",
+      "cor": "#FF4B4B"
+    },
+    {
+      "id": 3,
+      "titulo": "Metalcore / Alt Metal",
+      "descricao": "",
+      "cor": "#FF4B4B"
+    },
+    {
+      "id": 4,
+      "titulo": "Thrash / Death / Black",
+      "descricao": "",
+      "cor": "#FF4B4B"
+    },
+    {
+      "id": 5,
+      "titulo": "#WomenOfMetal",
+      "descricao": "",
+      "cor": "#FF4B4B"
+    },
+    {
+      "id": 6,
+      "titulo": "Deuses do Rock",
+      "descricao": "",
+      "cor": "#FF4B4B"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Alter Bridge - Addicted to Pain",
+      "description": "Alter Bridge é uma banda americana de rock formada em 2004, em Orlando, Flórida. A banda surgiu como um novo projeto do guitarrista e compositor Mark Tremonti, do baterista Scott Phillips e seu antigo companheiro, o baixista Brian Marshall, com a pausa nas atividades de sua antiga banda Creed, quando esses três músicos contrataram Myles Kennedy, ex-vocalista do The Mayfield Four, e atual vocalista da banda de Slash, como vocalista principal e, mais tarde, também guitarrista. A sonoridade do Alter Bridge tem sido descrita como Hard Rock, Pós-Grunge, Metal Alternativo e às vezes Metal Progressivo, tendo a banda desde canções pesadas, mais ligadas ao Heavy Metal, até as mais leves e que são executadas em formato acústico nas apresentações ao vivo",
+      "url": "https://www.youtube.com/watch?v=sAYrAu-jnMY"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Stone Sour - Gone Sovereign/Absolute Zero",
+      "url": "https://www.youtube.com/watch?v=r7dHBjXnbtk"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Three Days Grace - Animal I Have Become",
+      "url": "https://www.youtube.com/watch?v=xqds0B_meys"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Radiohead - Creep",
+      "url": "https://www.youtube.com/watch?v=XFkzRNyygfk"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Pearl Jam - Jeremy",
+      "url": "https://www.youtube.com/watch?v=MS91knuzoOA"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Audioslave - Like a Stone",
+      "url": "https://www.youtube.com/watch?v=7QU1nvuxaMA"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Creed - My Sacrifice",
+      "url": "https://www.youtube.com/watch?v=O-fyNgHdmLI"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Incubus - Dig",
+      "url": "https://www.youtube.com/watch?v=nMsZ6wkZWhA"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "titulo": "Shinedown - Simple Man",
+      "url": "https://www.youtube.com/watch?v=rgFQ6WmxdMs"
+    },
+    {
+      "id": 10,
+      "categoriaId": 1,
+      "titulo": "Saliva - Ladies and Gentlemen",
+      "url": "https://www.youtube.com/watch?v=tMlKmELIhgY"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Helloween - Eagle Fly Free (United Alive)",
+      "url": "https://www.youtube.com/watch?v=cwBpgobasqI"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Angra - Wishing Well",
+      "url": "https://www.youtube.com/watch?v=6b0Dn2mBaTs"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Shaman - Distant Thunder",
+      "url": "https://www.youtube.com/watch?v=4wx0luwd7YY"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "Edu Falaschi - The Glory Of The Sacred Truth",
+      "url": "https://www.youtube.com/watch?v=cwvsnoH6d1Q"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "Andre Matos - I Will Return",
+      "url": "https://www.youtube.com/watch?v=SRYyG_TKxXk"
+    },
+    {
+      "id": 16,
+      "categoriaId": 2,
+      "titulo": "Edguy - Lavatory Love Machine",
+      "url": "https://www.youtube.com/watch?v=-y3CMlvrkN0"
+    },
+    {
+      "id": 17,
+      "categoriaId": 2,
+      "titulo": "Avantasia - Lost In Space",
+      "url": "https://www.youtube.com/watch?v=o26SlmROH5Q"
+    },
+    {
+      "id": 18,
+      "categoriaId": 2,
+      "titulo": "Kamelot - Ghost Opera",
+      "url": "https://www.youtube.com/watch?v=J-TUufvK0gU"
+    },
+    {
+      "id": 19,
+      "categoriaId": 2,
+      "titulo": "Iron Maiden - The Trooper",
+      "url": "https://www.youtube.com/watch?v=X4bgXH3sJ2Q"
+    },
+    {
+      "id": 20,
+      "categoriaId": 2,
+      "titulo": "Primal Fear - I Am Alive",
+      "url": "https://www.youtube.com/watch?v=7171SvM-Ouk"
+    },
+    {
+      "titulo": " Avenged Sevenfold- Unholy Confessions",
+      "url": " https://www.youtube.com/watch?v=KrQQ9ffKqUA",
+      "categoriaId": 3,
+      "id": 21
+    },
+    {
+      "titulo": " As I Lay Dying - A Greater Foundation",
+      "url": "https://www.youtube.com/watch?v=CHXmHssCHY8",
+      "categoriaId": 3,
+      "id": 22
+    },
+    {
+      "titulo": " Killswitch Engage - In Due Time",
+      "url": " https://www.youtube.com/watch?v=HANCzu70us4",
+      "categoriaId": 3,
+      "id": 23
+    },
+    {
+      "titulo": " Trivium - The Sin And The Sentence",
+      "url": " https://www.youtube.com/watch?v=RAoKcM54Q1Y",
+      "categoriaId": 3,
+      "id": 24
+    },
+    {
+      "titulo": " Avenged Sevenfold - Dear God",
+      "url": " https://www.youtube.com/watch?v=mzX0rhF8buo",
+      "categoriaId": 3,
+      "id": 25
+    },
+    {
+      "titulo": " Five Finger Death Punch - Coming Down",
+      "url": " https://www.youtube.com/watch?v=ptzzU7jFQwo",
+      "categoriaId": 3,
+      "id": 26
+    },
+    {
+      "titulo": " Killswitch Engage - The End Of Heartache",
+      "url": " https://www.youtube.com/watch?v=5zb1Wghne1w",
+      "categoriaId": 3,
+      "id": 27
+    },
+    {
+      "titulo": " Slipknot - Psychosocial",
+      "url": " https://www.youtube.com/watch?v=Wws7mnMewPw",
+      "categoriaId": 3,
+      "id": 28
+    },
+    {
+      "titulo": " Bullet For My Valentine - Your Betrayal",
+      "url": "https://www.youtube.com/watch?v=IHgFJEJgUrg",
+      "categoriaId": 3,
+      "id": 29
+    },
+    {
+      "titulo": " Slayer - Repentless",
+      "url": " https://www.youtube.com/watch?v=yjb0j9l1sz4",
+      "categoriaId": 4,
+      "id": 30
+    },
+    {
+      "titulo": " Megadeth - Holy Wars...The Punishment Due",
+      "url": " https://www.youtube.com/watch?v=9d4ui9q7eDM",
+      "categoriaId": 4,
+      "id": 31
+    },
+    {
+      "titulo": " Anthrax - Madhouse",
+      "url": " https://www.youtube.com/watch?v=uGHsxMqpL0c",
+      "categoriaId": 4,
+      "id": 32
+    },
+    {
+      "titulo": " Sepultura - Roots Bloody Roots",
+      "url": " https://www.youtube.com/watch?v=F_6IjeprfEs",
+      "categoriaId": 4,
+      "id": 33
+    },
+    {
+      "titulo": " Exodus - Downfall",
+      "url": " https://www.youtube.com/watch?v=u95JTXzyHyA",
+      "categoriaId": 4,
+      "id": 34
+    },
+    {
+      "titulo": " Kreator - Satan Is Real",
+      "url": " https://www.youtube.com/watch?v=mUv8GxrqXPk",
+      "categoriaId": 4,
+      "id": 35
+    },
+    {
+      "titulo": " Trivium - Catastrophist",
+      "url": " https://www.youtube.com/watch?v=lNgyzREsaAA",
+      "categoriaId": 4,
+      "id": 36
+    },
+    {
+      "titulo": " Amon Amarth - Twilight Of The Thunder God",
+      "url": " https://www.youtube.com/watch?v=edBYB1VCV0k",
+      "categoriaId": 4,
+      "id": 37
+    },
+    {
+      "titulo": " Behemoth - Ora Pro Nobis Lucifer",
+      "url": " https://www.youtube.com/watch?v=Cx01fOYsc6E",
+      "categoriaId": 4,
+      "id": 38
+    },
+    {
+      "titulo": " Arch Enemy - The World Is Yours",
+      "url": " https://www.youtube.com/watch?v=lk2-bgwA0Ro",
+      "categoriaId": 4,
+      "id": 39
+    },
+    {
+      "titulo": " LACUNA COIL - Swamped",
+      "url": " https://www.youtube.com/watch?v=nOuxOUYycoU",
+      "categoriaId": 5,
+      "id": 40
+    },
+    {
+      "titulo": "Arch Enemy - Nemesis",
+      "url": " https://www.youtube.com/watch?v=n9AcG0glVu4",
+      "categoriaId": 5,
+      "id": 41
+    },
+    {
+      "titulo": " EPICA - Universal Death Squad",
+      "url": " https://www.youtube.com/watch?v=P_Ys_W7ySkM",
+      "categoriaId": 5,
+      "id": 42
+    },
+    {
+      "titulo": " Nightwish - Nemo",
+      "url": " https://www.youtube.com/watch?v=kIBdpFJyFkc",
+      "categoriaId": 5,
+      "id": 43
+    },
+    {
+      "titulo": " AFTER FOREVER - Energize Me",
+      "url": " https://www.youtube.com/watch?v=fjm4BrNAf6s",
+      "categoriaId": 5,
+      "id": 44
+    },
+    {
+      "titulo": " Arch Enemy - You Will Know My Name",
+      "url": " https://www.youtube.com/watch?v=3Y-J7sBT_no",
+      "categoriaId": 5,
+      "id": 45
+    },
+    {
+      "titulo": " Halestorm - Love Bites (So Do I)",
+      "url": " https://www.youtube.com/watch?v=FmkHqUwa4zg",
+      "categoriaId": 5,
+      "id": 46
+    },
+    {
+      "titulo": " Within Temptation ft. Tarja - Paradise (What About Us?)",
+      "url": " https://www.youtube.com/watch?v=Dy6MpsDPKts",
+      "categoriaId": 5,
+      "id": 47
+    },
+    {
+      "titulo": " Amaranthe - Amaranthine",
+      "url": " https://www.youtube.com/watch?v=D8lV1To-_fU",
+      "categoriaId": 5,
+      "id": 48
+    },
+    {
+      "titulo": " NORTHWARD - While Love Died",
+      "url": " https://www.youtube.com/watch?v=bAiPeSsqD-4",
+      "categoriaId": 5,
+      "id": 49
+    },
+    {
+      "titulo": " Queen – Bohemian Rhapsody",
+      "url": " https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "categoriaId": 6,
+      "id": 50
+    },
+    {
+      "titulo": " Led Zeppelin - Whole Lotta Love",
+      "url": " https://www.youtube.com/watch?v=HQmmM_qwG4k",
+      "categoriaId": 6,
+      "id": 51
+    },
+    {
+      "titulo": " Journey - Don't Stop Believin'",
+      "url": " https://www.youtube.com/watch?v=VcjzHMhBtf0",
+      "categoriaId": 6,
+      "id": 52
+    },
+    {
+      "titulo": " Creedence Clearwater Revival - Have you ever seen the rain?",
+      "url": " https://www.youtube.com/watch?v=TS9_ipu9GKw",
+      "categoriaId": 6,
+      "id": 53
+    },
+    {
+      "titulo": " Heart - Barracuda",
+      "url": " https://www.youtube.com/watch?v=PeMvMNpvB5M",
+      "categoriaId": 6,
+      "id": 54
+    },
+    {
+      "titulo": " The Animals - House of the Rising Sun",
+      "url": " https://www.youtube.com/watch?v=4-43lLKaqBQ",
+      "categoriaId": 6,
+      "id": 55
+    },
+    {
+      "titulo": " BLACK SABBATH - Paranoid",
+      "url": " https://www.youtube.com/watch?v=0qanF-91aJo",
+      "categoriaId": 6,
+      "id": 56
+    },
+    {
+      "titulo": " Judas Priest - Breaking The Law",
+      "url": " https://www.youtube.com/watch?v=L397TWLwrUU",
+      "categoriaId": 6,
+      "id": 57
+    },
+    {
+      "titulo": " Kansas - Carry on Wayward Son",
+      "url": " https://www.youtube.com/watch?v=P5ZJui3aPoQ",
+      "categoriaId": 6,
+      "id": 58
+    },
+    {
+      "titulo": " Dio - Rainbow In The Dark",
+      "url": " https://www.youtube.com/watch?v=zcsE9ObDPxA",
+      "categoriaId": 6,
+      "id": 59
+    }
+  ]
+}
