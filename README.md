@@ -8,7 +8,7 @@
 
 <h3 align="left">Recursos utilizados:</h3>
 <p align="left">Além do ReactJS, utilizamos JavaScript, Styled Components, CSS, React Slick, React Router Dom, Prop Types, JSON Server e Node.js.</p>
-<img src="https://euwilliamgoncalves.github.io/img/portfolio/012/image02.png" width="650" />
+<img src="https://omagotemum.site/assets/img/portfolio/012/image02.png" width="650" />
 
 <h3 align="left">Melhorias/UX:</h3>
 <p align="left">
